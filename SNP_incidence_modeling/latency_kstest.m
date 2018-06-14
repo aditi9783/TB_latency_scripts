@@ -1,7 +1,7 @@
   % Creates a 10x10 Magic square 
   % To do two-tailed 2sample ks test for 2d data 
   % This file should be run from same folder that has the kstest_2s_2d.m file
-  datapath = '/home/ag1349/Roberto/latencyPorj/model/Data/';
+  datapath = ''; #write your data path here
   truefname = fullfile(datapath,'nmut_monthwise_latencypairs.csv');
   truedata = csvread(truefname);
   models = ["Constant", "Linear", "Expo", "RapidExpo_2", "RapidExpo_10"];
